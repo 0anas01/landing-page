@@ -3,14 +3,11 @@ body {
     flex-direction: column;
 }
 
-.header-hero {
+.header {
+    display: flex;
     background-color: #1f2937;
     padding-left: 200px;
     padding-right: 200px;
-}
-
-.header {
-    display: flex;
 }
 
 .header p {
@@ -31,4 +28,57 @@ a {
     text-decoration: none;
     color: #e5e7eb;
     font-size: 18px;
+}
+
+.hero {
+    display: flex;
+    background-color: #1f2937;
+    padding-left: 200px;
+    padding-right: 200px;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.hero-section {
+    display: flex;
+    gap: 30px;
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex: 1;
+}
+
+.hero-text {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.hero-sub {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.hero button {
+    background-color: #3882f6;
+    padding: 10px;
+    color: #e5e7eb;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+img {
+    max-width: 100%;
+}
+
+.hero-image {
+    display: flex;
+    align-items: center;
+    flex: 1;
 }
