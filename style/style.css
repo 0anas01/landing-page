@@ -39,7 +39,7 @@ a {
     padding-right: 200px;
     align-items: center;
     padding-top: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 100px;
 }
 
 .hero-section {
@@ -135,4 +135,52 @@ img {
     display: flex;
     align-self: flex-end;
     font-style: normal;
+}
+
+.CTA {
+   padding: 50px 200px;
+}
+
+.CTA-container {
+    background-color: #3882f6;
+    padding: 50px 100px;
+    display: flex;
+    border-radius: 10px;
+    border-color: #3882f6;
+}
+
+.CTA-text {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    color: white;
+}
+
+.CTA-header {
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.CTA-container button {
+    margin-left: auto;
+    display: flex;
+    align-self: center;
+    background-color: #3882f6;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+    font-weight: bold;
+    border-color: white;
+    width: 120px;
+    justify-content: center;
+    border-width: thin;
+}
+
+.footer {
+    display: flex;
+    background-color: #1f2937;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 10px;
 }
