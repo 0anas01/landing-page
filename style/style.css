@@ -115,3 +115,24 @@ img {
     align-items: center;
     width: 143px;
 }
+
+.quote {
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    padding: 100px 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.author {
+    font-size: large;
+    color: black;
+    font-weight: bold;
+    display: flex;
+    align-self: flex-end;
+    font-style: normal;
+}
