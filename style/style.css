@@ -1,6 +1,8 @@
 body {
     display: flex;
     flex-direction: column;
+    padding: 0;
+    margin: 0;
 }
 
 .header {
@@ -71,6 +73,7 @@ a {
     color: #e5e7eb;
     border-radius: 10px;
     font-weight: bold;
+    border-color: #3882f6;
 }
 
 img {
